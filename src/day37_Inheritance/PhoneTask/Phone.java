@@ -19,7 +19,7 @@ public class Phone {
     public void call(long phoneNumber){
         System.out.println(brand+ " " + model + " is calling" + phoneNumber);
     }
-    public void test(long phoneNumber){
+    public void text(long phoneNumber){
         System.out.println(brand + " " + model+ " is texting" + phoneNumber);
     }
 
