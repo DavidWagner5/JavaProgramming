@@ -7,6 +7,8 @@ public class Square extends Shape {
         super("Square");
         this.side = side;
     }
+
+
     @Override public double area() {
         return side*side;
     }
