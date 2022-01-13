@@ -1,4 +1,4 @@
-package day38_Inheritance.CarTask;
+package day38_InheritanceAndOverriding.CarTask;
 
 public class Tesla extends Car {
     public Tesla(String brand, String model, int year, double pride, String color, int miles) {
