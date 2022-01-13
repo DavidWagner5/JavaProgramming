@@ -6,7 +6,11 @@ public class ParkingLot {
 
         Toyota toyota = new Toyota("","Camry", 2020, 20000, "Gray", 123456);
 
-        Tesla Tesla = new Tesla("", "Model S", 2020, 100000, "Black", 23);
+        Tesla tesla = new Tesla("", "Model S", 2020, 100000, "Black", 23);
+
+
+        toyota.start();
+        tesla.start();
 
 
 
