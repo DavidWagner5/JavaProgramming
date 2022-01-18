@@ -1,4 +1,4 @@
-package day39_Recap.ShapeTask;
+package day39_RecapEverythingOOP.ShapeTask;
 
 public class Rectangle extends Shape{
 
@@ -29,7 +29,7 @@ public class Rectangle extends Shape{
         this.width = width;
     }
 
-    public Rectangle(String name, double length, double width) {
+    public Rectangle(double length, double width) {
         super("Rectangle");
         setLength(length);
         setWidth(width);

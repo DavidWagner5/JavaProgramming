@@ -1,4 +1,4 @@
-package day39_Recap.ShapeTask;
+package day39_RecapEverythingOOP.ShapeTask;
 
 public class Circle extends Shape {
 
@@ -18,7 +18,7 @@ public class Circle extends Shape {
         this.radius = radius;
     }
 
-    public Circle(String name, double radius) {
+    public Circle(double radius) {
         super("Circle");
         setRadius(radius);
     }
