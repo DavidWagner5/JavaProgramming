@@ -1,6 +1,6 @@
 package day37_Inheritance.PhoneTask;
 
-public class Iphone extends Phone {
+public final class Iphone extends Phone {
 
 
     public Iphone(String color, String size, String model, double price) {
