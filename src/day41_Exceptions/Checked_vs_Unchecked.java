@@ -17,7 +17,7 @@ public class Checked_vs_Unchecked {
 
         //System.out.println(a/b);
 
-       // System.out.println("Wooden Spoon"); // you see this because the error happened before it
+       // System.out.println("Wooden Spoon"); // you don't see this because the error happened before it
 
         //---------------------------------------------------------------
 

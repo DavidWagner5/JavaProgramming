@@ -30,5 +30,6 @@ public class MultiCatchBlocks {
         }
 
         System.out.println("Test Completed");
+
     }
 }
