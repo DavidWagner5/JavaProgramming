@@ -3,7 +3,7 @@ package PracticeTasks;
 public class ArrayTask {
     public static void main(String[] args) {
 
-
+//print the common two elements of the array
 
 
         int[] arr1 = {1, 2, 3, 4, 5};

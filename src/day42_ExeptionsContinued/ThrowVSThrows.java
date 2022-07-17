@@ -1,0 +1,36 @@
+package day42_ExeptionsContinued;
+
+import java.util.Scanner;
+
+public class ThrowVSThrows {
+
+    public static void main(String[] args) {
+
+        System.out.println("Enter your score");
+        int score = new Scanner(System.in).nextInt();
+
+        if (score < 0 || score>100){
+            throw new ArithmeticException("invalid score: " +score);
+        }
+
+        if(score >= 90){
+            System.out.println("A");
+        }else if(score >= 80){
+            System.out.println("B");
+
+        }else if(score >= 70){
+            System.out.println("C");
+        }else if (score >= 60){
+            System.out.println("D");
+        }else{
+            System.out.println("F");
+        }
+
+    }
+
+
+
+    public static void method1() throws InterruptedException {
+        Thread.sleep(5000);
+    }//or add the try catch block, if you use throws and you call this method somewhere else it will give you he same exception
+}

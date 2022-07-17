@@ -16,6 +16,28 @@ public class MaxNumArrayEX {
         }
         System.out.println(max);
 
+
+
+
+
+        int numbers2[] = {5,2,9,13,4};
+
+        int max2 = numbers2[0];
+
+        for (int i = 0; i < numbers2.length; i++) {
+
+            if(numbers2[i] > max2) {
+
+                max2 +=numbers2[i];
+            }
+
         }
+        System.out.println(max2);
+
+    }
+
+
+
+
     }
 

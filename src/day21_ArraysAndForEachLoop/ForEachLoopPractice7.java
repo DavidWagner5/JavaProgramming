@@ -8,7 +8,7 @@ public class ForEachLoopPractice7 {
         String initials = "";
 
         for (String each : words) {
-            initials = (each.charAt(0)+ "" + each.charAt(each.length()-1)); // use "" so that it can conver to string of text insdead of adding
+            initials = (each.charAt(0)+ " " + each.charAt(each.indexOf(" ")+1)); // use "" so that it can conver to string of text insdead of adding
 
             System.out.println(initials);
         }

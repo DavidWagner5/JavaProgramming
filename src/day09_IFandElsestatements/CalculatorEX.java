@@ -1,6 +1,7 @@
 package day09_IFandElsestatements;
 
-public class CalculatorEX { public static void main(String[] args) {
+public class CalculatorEX {
+    public static void main(String[] args) {
 
     int n1 = 10;
     int n2 = 20;

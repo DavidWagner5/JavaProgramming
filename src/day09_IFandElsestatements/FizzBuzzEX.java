@@ -10,16 +10,16 @@ write a program that prints "Fizz" if the number is divisible by 3, prints "Buzz
 public class FizzBuzzEX {
     public static void main(String[] args) {
 
-        int num = 15;
+        int num = 30;
 
-        if (num%3 == 0) {
-            System.out.println("buzz");
+      if(num%3==0){
+          System.out.println("fizz");
+      }else if(num%5==0){
+          System.out.println("buzz");
 
-        } else if (num%5 == 0) {
-            System.out.println("fizz");
-        } if(num%3==0&&num%5==0){
-            System.out.println("FizzBuzz");
-        }
+      }else if (num%3==0 && num%5==0){
+          System.out.println("FIZZBUZZ");
+      }
 
     }
 }

@@ -43,7 +43,7 @@ public class RemoveIfMethod4 {
         //--------------------------------------------
 
         ArrayList<String> list4 = new ArrayList<>();
-        list4.addAll(Arrays.asList("Anna", "Racecar", "Level", "Eye", "Java", "Python", "Cydeo"));
+        list4.addAll(Arrays.asList("Anna", "racecar", "Level", "Eye", "Java", "Python", "Cydeo"));
         list4.removeIf(each -> !StringUtility.isPalindrome(each));
         System.out.println(list4);
     }

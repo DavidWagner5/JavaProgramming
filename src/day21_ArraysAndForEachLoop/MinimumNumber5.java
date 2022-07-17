@@ -16,4 +16,7 @@ public class MinimumNumber5 {
         System.out.println(min);
 
     }
+
+
+
 }

@@ -17,5 +17,7 @@ public class ForEachLoop3 {
         for (int each:numbers){
             System.out.println(each);
         }
+
+
     }
 }
